@@ -1,7 +1,7 @@
 {
   "name": "ember-object-at-helper",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "{{object-at}} Ember HTMLBars Helper",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/jelhan/ember-object-at-helper",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -36,11 +36,13 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
+    "ember-suave": "2.0.1",
     "ember-try": "^0.2.2",
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-helpers"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
