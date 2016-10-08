@@ -36,3 +36,7 @@ Complex example:
 
 * `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
 * `ember test`
+
+## See also
+
+[ember-composable-helpers](https://github.com/DockYard/ember-composable-helpers) also includes an [`object-at` template helper](https://github.com/DockYard/ember-composable-helpers#object-at).
