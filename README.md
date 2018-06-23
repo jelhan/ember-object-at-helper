@@ -2,6 +2,8 @@
 
 HTMLBars template helper to lookup an element of an array.
 
+> **Deprecated** Please use `{{object-at}}` template helper provided by [ember-composable-helpers](https://github.com/DockYard/ember-composable-helpers).
+
 ## Usage
 ```
 Ember.Component.extend({
